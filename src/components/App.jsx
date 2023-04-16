@@ -49,6 +49,7 @@ export const App = () => {
     if (searchQuery !== inputValue) {
         setSearchQuery(inputValue);
         setImageCard([]);
+        setPage(1);
     }
   }
 
